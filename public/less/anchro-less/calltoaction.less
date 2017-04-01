@@ -1,0 +1,49 @@
+.first-call-to-action {
+	background-color: @bg-light;
+	p {
+		text-align: center;
+		font-size: 14px;
+		font-style: italic;
+		color: @text-color-two;
+		line-height: 26px;
+		letter-spacing: 0.5px;
+		em {
+			font-weight: 700;
+		}
+	}
+	.accent-button {
+		text-align: center;
+		margin-top: 35px;
+	}
+}
+
+section.second-call-to-action {
+	padding: 0px;
+	background-image: url(http://placehold.it/1400x180);
+	background-repeat: no-repeat;
+	background-size: cover;
+	@media (max-width: @screen-sm-max) {
+		text-align: center;
+	}
+	h1 {
+		margin: 60px 0px;
+	    font-size: 20px;
+	    text-transform: uppercase;
+	    letter-spacing: 3px;
+	    font-weight: 400;
+		color: 	@white;
+		em {
+			font-style: normal;
+			font-weight: 700;
+		}
+	}
+	.white-button {
+		float: right;
+		margin-top: -80px;
+		@media (max-width: @screen-sm-max) {
+			float: none;
+			margin-top: -20px;
+			padding-bottom: 70px;
+		}
+	}
+}

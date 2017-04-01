@@ -1,0 +1,47 @@
+.first-line {
+	margin-left: -350px;
+	margin-top: 45px;
+	&:extend(.primary-font);
+	border-left: 4px solid @white;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	span {
+		font-size: 16px;
+		font-weight: 700;
+		color: @accent-color;
+		letter-spacing: 0.3px;
+	}
+	h1 {
+		margin-top: 5px;
+		color: @white;
+		font-size: 72px;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-bottom: 40px;
+		em {
+			font-style: normal;
+			display: block;
+			font-weight: 900;
+		}
+	}
+}
+
+.slider {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.tp-caption {
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+
+.tp-bullets {
+	z-index: 1!important;
+}
+
+

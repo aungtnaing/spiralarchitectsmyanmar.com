@@ -1,0 +1,133 @@
+footer {
+	margin-top: 100px;
+	@media (max-width: @screen-sm-max) {
+		text-align: center;
+	}
+	.about-us {
+		@media (max-width: @screen-sm-max) {
+			margin-bottom: 45px;
+			padding-bottom: 45px;
+			border-bottom: 1px solid @border-color;
+		}
+		img {
+			margin-bottom: 40px;
+		}
+		ul.social-icons {
+			padding: 0;
+			margin-top: 25px;
+			list-style: none;
+			li {
+				display: inline-block;
+				margin-right: 3px;
+				a {
+					width: 40px;
+					height: 40px;
+					background-color: @bg-light;
+					display: inline-block;
+					text-align: center;
+					line-height: 40px;
+					color: @text-color;
+				}
+				a:hover {
+					background-color: @accent-color;
+					color: @white;
+					transition: all 0.5s;
+				}
+			}
+		}
+	}
+	.our-history {
+		@media (max-width: @screen-sm-max) {
+			margin-bottom: 45px;
+			padding-bottom: 45px;
+			border-bottom: 1px solid @border-color;
+		}
+		h6 {
+			font-size: 15px;
+			text-transform: uppercase;	
+			letter-spacing: 0.5px;
+			margin-top: 0px;
+			margin-bottom: 	45px;
+		}
+		.history-item {
+			margin-bottom: 	30px;
+			img {
+				float: left;	
+				@media (max-width: @screen-sm-max) {
+					float: none;
+				}
+			}
+			h4 {
+				padding-top: 5px;
+				margin-left: 85px;
+				font-size: 	13px;
+				font-weight: 700;
+				letter-spacing: 0.5px;
+				@media (max-width: @screen-sm-max) {
+					margin-left: 0px;
+				}
+			}
+			.line-dec {
+				margin-left: 85px;
+				margin-top: 10px;
+				margin-bottom: 7px;
+				width: 20px;
+				height: 3px;
+				background-color: @bg-light;
+				@media (max-width: @screen-sm-max) {
+					margin: 10px auto;
+				}
+			}
+			p {
+				margin-left: 85px;
+				@media (max-width: @screen-sm-max) {
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+	.contact-info {
+		h6 {
+			font-size: 15px;
+			text-transform: uppercase;	
+			letter-spacing: 0.5px;
+			margin-top: 0px;
+			margin-bottom: 	40px;
+		}
+		ul.contact-list {
+			padding: 0;
+			margin-top: 25px;
+			list-style: none;
+			li {
+				display: inline-block;
+				margin-bottom: 15px;
+				font-family: @primary-font;
+				font-size: 13px;
+				color: 	@text-color;
+				span {
+					font-weight: 600;
+					width: 	75px;
+					display: inline-block;	
+				}
+				a {
+					color: @text-color;
+				}
+				a:hover {
+					color: @accent-color;
+					transition: all 0.5s;
+				}
+			}
+		}
+	}
+	.copyright-text	{
+		p {
+			font-size: 	11px;
+			color: 	@text-color-two;
+			margin-top: 60px;
+			margin-bottom: 20px;
+			padding-top: 20px;
+			text-align: center;	
+			border-top: 	1px solid @border-color;
+		}
+	}
+}

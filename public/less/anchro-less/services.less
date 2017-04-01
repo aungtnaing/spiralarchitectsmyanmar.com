@@ -1,0 +1,124 @@
+.our-services {
+	.left-text {
+		@media (max-width: @screen-sm-max) {
+			text-align: center;
+			margin-bottom: 45px;
+		}
+		a {
+			font-family: @primary-font;
+			font-size: 12px;
+			font-weight: 700;
+			color: @accent-color;
+			text-transform: uppercase;
+			margin-top: 25px;
+			display: block;
+		}
+	}
+	.services-item {
+		.second-service {
+			margin-top: 30px;
+		}
+		.last-service {
+			margin-bottom: 0px!important;
+		}
+		.service-item {
+			@media (max-width: @screen-sm-max) {
+				text-align: center;
+				margin-bottom: 45px;
+			}
+			img {
+				float: left;
+				@media (max-width: @screen-sm-max) {
+					text-align: center;
+					float: none;
+				}
+			}
+			h4 {
+				font-size: 14px;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.3px;
+				margin-left: 50px;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				@media (max-width: @screen-sm-max) {
+					margin-left: 0px;
+					margin-top: 15px;
+				}
+			}
+			.line-dec {
+				background-color: @bg-light;
+				width: 32px;
+				height: 3px;
+				margin-left: 50px;
+				margin-top: 15px;
+				margin-bottom: 10px;
+				@media (max-width: @screen-sm-max) {
+					margin: 15px auto;
+				}
+			}
+			p {
+				margin-left: 50px;
+				@media (max-width: @screen-sm-max) {
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+	.services-item {
+		.second-service-item {
+			text-align: center;
+			@media (max-width: @screen-sm-max) {
+				margin-bottom: 45px;
+			}
+			h4 {
+				font-size: 14px;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.3px;
+				margin-top: 25px;
+				margin-bottom: 0px;
+			}
+			.line-dec {
+				background-color: @bg-light;
+				width: 32px;
+				height: 3px;
+				margin-top: 15px;
+				margin-bottom: 10px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+
+#funny-facts {
+	background-image: url(http://placehold.it/1400x420);
+	.fact-item {
+		@media (max-width: @screen-sm-max) {
+			margin-bottom: 45px;
+		}
+		.count-focus {
+			font-family: @primary-font;
+			font-size: 34px;
+			font-weight: 900;
+			color: @heading;
+		}
+		.line-dec {
+			width: 60px;
+			height: 3px;
+			background-color: @heading;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		.fact-role {
+			font-family: @primary-font;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 700;
+			color: @heading;
+		}
+	}
+}
