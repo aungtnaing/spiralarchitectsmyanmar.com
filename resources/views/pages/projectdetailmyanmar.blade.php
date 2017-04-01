@@ -10,15 +10,21 @@
 										    <li data-thumb="{{ $project->photourl1 }}">
 										      <img src="{{ $project->photourl1 }}" alt="" />
 										    </li>
+										    @if($project->photourl2!="")
 										   <li data-thumb="{{ $project->photourl2 }}">
 										      <img src="{{ $project->photourl2 }}" alt="" />
 										    </li>
+										    @endif
+										    @if($project->photourl3!="")
 										   <li data-thumb="{{ $project->photourl3 }}">
 										      <img src="{{ $project->photourl3 }}" alt="" />
 										    </li>
+										    @endif
+										    @if($project->photourl4!="")
 										    <li data-thumb="{{ $project->photourl4 }}">
 										      <img src="{{ $project->photourl4 }}" alt="" />
 										    </li>
+										    @endif
 										</ul>
 									</div>
 								</div>
@@ -34,7 +40,7 @@
 										<!-- <li><i class="fa fa-dollar"></i><span>Budget: </span>$45.000</li> -->
 										<li><i class="fa fa-map-marker"></i><span>တည္​​ေနရာ: </span>{{ $project->mlocation }}</li>
 										<li><i class="fa fa-folder"></i><span>အမ်ိဳးအစား: </span>{{ $project->category->mname }}</li>
-										<li><i class="fa fa-share-alt"></i><span>Share on: </span><a href="https://www.facebook.com/RobertImeri19">Facebook</a> ,<a href="#">Twitter</a> ,<a href="#">Linkedin</a> ,</li>
+										<!-- <li><i class="fa fa-share-alt"></i><span>Share on: </span><a href="https://www.facebook.com/RobertImeri19">Facebook</a> ,<a href="#">Twitter</a> ,<a href="#">Linkedin</a> ,</li> -->
 									</ul>
 								</div>
 								<div class="pagination-buttons">

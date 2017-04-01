@@ -28,8 +28,8 @@
 					<li><a href="<?php echo url(); ?>/contactusmyanmar">ဆက္​သြယ္​ရန္</a></li>
 					<li class="menu-item-has-children navbutton-myanmar"><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ျမန္မာ</a>
 						<ul class="sub-menu">
-							<li class="navbutton-english"><a href="<?php echo url(); ?>/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English</a></li>
-							<li class="navbutton-myanmar"><a href="<?php echo url(); ?>/myanmar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ျမန္မာ</a></li>
+							<li class="navbutton-english"><a href="<?php echo url(); ?>/en">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English</a></li>
+							<li class="navbutton-myanmar"><a href="<?php echo url(); ?>/mn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ျမန္မာ</a></li>
 						</ul>		
 					</li>
 				</ul>

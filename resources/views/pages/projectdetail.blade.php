@@ -1,16 +1,5 @@
 @extends('layouts.default')
 @section('content')
-	<!-- <section class="heading-page">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Project Details</h1>
-					<span>Here are some more info about our company</span>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
 
 		<section class="project-page">
 					<div class="container">	
@@ -22,15 +11,21 @@
 										    <li data-thumb="{{ $project->photourl1 }}">
 										      <img src="{{ $project->photourl1 }}" alt="" />
 										    </li>
+										    @if($project->photourl2!="")
 										   <li data-thumb="{{ $project->photourl2 }}">
 										      <img src="{{ $project->photourl2 }}" alt="" />
 										    </li>
+										    @endif
+										    @if($project->photourl3!="")
 										   <li data-thumb="{{ $project->photourl3 }}">
 										      <img src="{{ $project->photourl3 }}" alt="" />
 										    </li>
+										    @endif
+										    @if($project->photourl4!="")
 										    <li data-thumb="{{ $project->photourl4 }}">
 										      <img src="{{ $project->photourl4 }}" alt="" />
 										    </li>
+										    @endif
 										</ul>
 									</div>
 								</div>
@@ -45,7 +40,7 @@
 										<!-- <li><i class="fa fa-dollar"></i><span>Budget: </span>$45.000</li> -->
 										<li><i class="fa fa-map-marker"></i><span>Location: </span>{{ $project->location }}</li>
 										<li><i class="fa fa-folder"></i><span>Category: </span>{{ $project->category->name }}</li>
-										<li><i class="fa fa-share-alt"></i><span>Share on: </span><a href="https://www.facebook.com/RobertImeri19">Facebook</a> ,<a href="#">Twitter</a> ,<a href="#">Linkedin</a> ,</li>
+										<!-- <li><i class="fa fa-share-alt"></i><span>Share on: </span><a href="https://www.facebook.com/RobertImeri19">Facebook</a> ,<a href="#">Twitter</a> ,<a href="#">Linkedin</a> ,</li> -->
 									</ul>
 								</div>
 								<div class="pagination-buttons">

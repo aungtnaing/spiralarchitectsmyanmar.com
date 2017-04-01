@@ -19,7 +19,22 @@
 
 		Route::get('/', 'WelcomeController@index');
 		Route::get('home', 'HomeController@index');
-		Route::get('myanmar', 'LanguageController@myanmarindex');
+		
+		Route::get('mn', 'LanguageController@changemn');
+		Route::get('en', 'LanguageController@changeen');
+
+		 // Route::get('mn/{projectid}', [
+			// 'uses' => 'LanguageController@changemn'
+			// ]);
+
+		 
+		 // Route::get('en/{projectid}', [
+			// 'uses' => 'LanguageController@changeen'
+			// ]);
+
+		Route::get('homemyanmar', 'LanguageController@homemyanmar');
+
+
 
 		 Route::get('aboutus', function() {
 

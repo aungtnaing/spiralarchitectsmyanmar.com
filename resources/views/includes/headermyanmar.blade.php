@@ -16,7 +16,7 @@
 					<div class="navbar-collapse collapse">
 						<!-- Right nav -->
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="/myanmar">ပင္မစာမ်က္ႏွာ</a></li>
+							<li><a href="<?php echo url(); ?>/homemyanmar">ပင္မစာမ်က္ႏွာ</a></li>
 							<li><a href="<?php echo url(); ?>/aboutusmyanmar">spiral အ​ေၾကာင္​း</a></li>
 							<li><a href="">SELECTED အလုပ္မ်ား<span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -40,8 +40,8 @@
 							<li><a href="<?php echo url(); ?>/contactusmyanmar">ဆက္​သြယ္​ရန္</a></li>
 							<li class="navbutton-myanmar"><a href="">ျမန္မာ<span class="caret"></a>
 									<ul class="dropdown-menu">
-										<li class="navbutton-english"><a href="<?php echo url(); ?>/">&nbsp;&nbsp;English</a></li>
-										<li class="navbutton-myanmar"><a href="<?php echo url(); ?>/myanmar">&nbsp;&nbsp;ျမန္မာ</a></li>
+										<li class="navbutton-english"><a href="<?php echo url(); ?>/en">&nbsp;&nbsp;English</a></li>
+										<li class="navbutton-myanmar"><a href="<?php echo url(); ?>/mn">&nbsp;&nbsp;ျမန္မာ</a></li>
 										
 									</ul>
 							</li>

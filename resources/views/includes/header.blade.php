@@ -40,8 +40,8 @@
 							<li><a href="<?php echo url(); ?>/contactus">CONTACT US</a></li>
 							<li class="navbutton-english"><a href="">English<span class="caret"></a>
 									<ul class="dropdown-menu">
-										<li class="navbutton-myanmar"><a href="<?php echo url(); ?>/myanmar">&nbsp;&nbsp;Myanmar</a></li>
-										<li class="navbutton-english"><a href="<?php echo url(); ?>/">&nbsp;&nbsp;English</a></li>
+										<li class="navbutton-myanmar"><a href="<?php echo url(); ?>/mn">&nbsp;&nbsp;Myanmar</a></li>
+										<li class="navbutton-english"><a href="<?php echo url(); ?>/en">&nbsp;&nbsp;English</a></li>
 									</ul>
 							</li>
 							<!-- <li class="side-menu-button"><a href="javascript:void(0)"><i class="fa fa-bars"></i></a></li> -->

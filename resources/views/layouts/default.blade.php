@@ -53,7 +53,7 @@
         jQuery(function($){
             $('.contact-map').gmap3({
                 marker:{
-                    address: '16.8511883,96.1629178' 
+                    address: '16.8506586,96.1603833' 
                     
                 },
                     map:{
@@ -65,6 +65,10 @@
                 }
             });
         });
+
+
+
+    
     </script>
 
 </body>

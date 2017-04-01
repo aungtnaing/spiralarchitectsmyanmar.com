@@ -50,10 +50,9 @@ class HomeController extends Controller {
 			
 		$mainslides = Mainslide::where('active',1)
 		->orderBy('slideno','asc')
-		->take(8)
+		->take(10)
 		->get();
-		$homecontent = Homecontent::find(1);
-
+	
 		
 	
 		$categorys = Category::orderBy('id', 'desc')->get();
@@ -61,7 +60,6 @@ class HomeController extends Controller {
 
 		return view('pages.home')
 			->with('mainslides', $mainslides)
-			->with('homecontent', $homecontent)
 			->with('categorys', $categorys);
 		 	
   	}

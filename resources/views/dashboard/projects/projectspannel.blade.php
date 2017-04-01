@@ -7,7 +7,7 @@
 		<div class="panel">
 			<div class="panel-heading">
 				
-				<a class="btn btn-info btn-large pull-right" href="{{ route("projects.create") }}">Add New Category</a>
+				<a class="btn btn-info btn-large pull-right" href="{{ route("projects.create") }}">Add New Project</a>
 				
 				<h3 class="panel-title">Projects</h3>
 				
