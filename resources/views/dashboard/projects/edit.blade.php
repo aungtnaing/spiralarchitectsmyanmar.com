@@ -165,8 +165,8 @@
                 	<div class='col-sm-3'>
 			            <div class="form-group">
 			                
-			                	<label for="name"><i class="fa fa-calendar"></i>..Date:</label>
-			                    <input type="date" placeholder="mm / dd / yyyy" name="sdate" class="form-control" value="{{ $project->sdate }}"/>
+			                	<label for="name"><i class="fa fa-calendar"></i>..Year:</label>
+			                    <input type="date" placeholder="yyyy" name="sdate" class="form-control" value="{{ $project->sdate }}"/>
 			                    
 			                    </span>
 			                
@@ -318,6 +318,66 @@
 				.attr('src', e.target.result)
 				.width(150)
 				.height(150);
+			};
+
+			reader.readAsDataURL(input.files[0]);
+		}
+	}
+
+		function readURLsmall(input) {
+		if (input.files && input.files[0]) {
+			var reader = new FileReader();
+
+			reader.onload = function (e) {
+				$('#blahsmall')
+				.attr('src', e.target.result)
+				.width(150)
+				.height(100);
+			};
+
+			reader.readAsDataURL(input.files[0]);
+		}
+	}
+
+	function readURLsmall2(input) {
+		if (input.files && input.files[0]) {
+			var reader = new FileReader();
+
+			reader.onload = function (e) {
+				$('#blahsmall2')
+				.attr('src', e.target.result)
+				.width(150)
+				.height(100);
+			};
+
+			reader.readAsDataURL(input.files[0]);
+		}
+	}
+
+	function readURLsmall3(input) {
+		if (input.files && input.files[0]) {
+			var reader = new FileReader();
+
+			reader.onload = function (e) {
+				$('#blahsmall3')
+				.attr('src', e.target.result)
+				.width(150)
+				.height(100);
+			};
+
+			reader.readAsDataURL(input.files[0]);
+		}
+	}
+
+		function readURLsmall4(input) {
+		if (input.files && input.files[0]) {
+			var reader = new FileReader();
+
+			reader.onload = function (e) {
+				$('#blahsmall4')
+				.attr('src', e.target.result)
+				.width(150)
+				.height(100);
 			};
 
 			reader.readAsDataURL(input.files[0]);

@@ -127,8 +127,8 @@
                 	<div class='col-sm-3'>
 			            <div class="form-group">
 			                
-			                	<label for="name"><i class="fa fa-calendar"></i>..Date:</label>
-			                    <input type="date" placeholder="mm / dd / yyyy" name="sdate" class="form-control" />
+			                	<label for="name"><i class="fa fa-calendar"></i>..Year:</label>
+			                    <input type="date" placeholder="yyyy" name="sdate" class="form-control" />
 			                    
 			                    </span>
 			                
