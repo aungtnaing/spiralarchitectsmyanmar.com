@@ -23,11 +23,13 @@
 									@foreach($categorys as $category)
 										@if(count($category->projects)>0)
 											<li><a href="#">{{ $category->mname }}<span class="caret"></span></a>
+												<ul class="dropdown-menu">
 											@foreach($category->projects as $project)
-													<ul class="dropdown-menu">
+													
 														<li><a href="{{ url('/projectdetailmyanmar', $project->id) }}">{{ $project->mname }}</a></li>
-													</ul>
+												
 											@endforeach
+													</ul>
 											</li>
 										@else
 											<li><a href="#">{{ $category->mname }}</a></li>
