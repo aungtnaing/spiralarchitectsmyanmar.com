@@ -34,7 +34,7 @@
 
 		Route::get('homemyanmar', 'LanguageController@homemyanmar');
 
-
+		Route::resource('profiles','ProfilesController');
 
 		 Route::get('aboutus', function() {
 
