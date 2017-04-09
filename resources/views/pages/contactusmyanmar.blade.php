@@ -29,22 +29,39 @@
 
 				<section class="contact-form">
 					<div class="container">
+
+						@if (count($errors) > 0)
+				<div class="alert alert-danger">
+					<ul>
+						@foreach ($errors->all() as $error)
+						<li>{{ $error }}</li>
+						@endforeach
+					</ul>
+				</div>
+				@endif	
 						<div class="row">
 							<div class="col-md-12">
 								<div class="row">
+
+								<form action="{{ route("contactus.store") }}" method="POST">
+										<input type="hidden" name="_token" value="{{ csrf_token() }}">
+
 									<div class="col-md-4 col-sm-12">
-										<input type="text" name="name-id" id="name-id" placeholder="ပထမအမည္">
+										<input type="text" name="name" id="name-id" placeholder="ပထမအမည္" required>
 									</div>
-									<div class="col-md-4 col-sm-12">
+									<!-- <div class="col-md-4 col-sm-12">
 										<input type="text" name="surname-id" id="surname-id" placeholder="ေနာက္ဆံုးအမည္">
-									</div>
+									</div> -->
 									<div class="col-md-4 col-sm-12">
-										<input type="email" name="email-id" id="email-id" placeholder="Email လိပ္စာ">
+										<input type="email" name="email" id="email-id" placeholder="Email လိပ္စာ" required>
 									</div>
 									<div class="col-md-12 col-sm-12">
-										<textarea name="message-id" id="message-id" placeholder="သတင္းစကား"></textarea>
-										<button id="submit-contact" type="button" class="btn">စာပို႔ရန္</button>
+										<textarea name="messagecontent" id="message-id" placeholder="သတင္းစကား" required></textarea>
+										<!-- <button id="submit-contact" type="button" class="btn">စာပို႔ရန္</button> -->
+										<button type="submit" class="btn btn-default">စာပို႔ရန္</button>
 									</div>
+
+									</form>
 								</div>
 							</div>
 						</div>
