@@ -65,7 +65,7 @@ public function store(ContactFormRequest $request)
 
         $message->from('spiral.architects.info@gmail.com', $data['email']);
 
-        $message->to('spiral.rb@gmail.com')->subject('New Client Enquiry')
+        $message->to('aungtnaing82@gmail.com')->subject('New Client Enquiry')
         										->replyTo($data['email']);
 
     });
