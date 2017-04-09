@@ -93,13 +93,13 @@
         <div class="form-group">
           <label class="col-md-3 control-label">Password:</label>
           <div class="col-md-8">
-            <input class="form-control" id="password1" name="password" value="{{ $user->password }}" type="password" required>
+            <input class="form-control" id="password1" name="password" type="password">
           </div>
         </div>
         <div class="form-group">
           <label class="col-md-3 control-label">Confirm password:</label>
           <div class="col-md-8">
-            <input class="form-control" id="password2" name="password_confirmation" value="{{ $user->password }}" type="password" required>
+            <input class="form-control" id="password2" name="password_confirmation" type="password">
           </div>
         </div>
         <div class="form-group">

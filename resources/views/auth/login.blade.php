@@ -56,7 +56,7 @@
                         <article class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="block-form box-border wow fadeInRight animated" data-wow-duration="1s">
                                 <h3><i class="fa fa-pencil"></i>Create new account</h3>
-                                <p>Registration allows you to avoid filling in billing and shipping forms every time you checkout on this website.</p>
+                                <p>Registration allows you to admain.</p>
                                 <hr>
                                 <a href="{{ url('/auth/register') }}" class="btn-default-1">Register</a>
                             </div>
@@ -64,7 +64,7 @@
                                 <h3><i class="fa fa-bookmark-o"></i>Checkout as Guest</h3>
                                 <p>Checkout as a guest instead!</p>
                                 <hr>
-                                <a href="#" class="btn-default-1">As Guest</a>
+                                <a href="/" class="btn-default-1">As Guest</a>
                             </div>
 
                         </article>
@@ -79,58 +79,5 @@
 
 
 
-    <section>
-        <div class="block color-scheme-white-90">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <article class="payment-service">
-                            <a href="#"></a>
-                            <div class="row">
-                                <div class="col-md-4 text-center">
-                                    <i class="fa fa-thumbs-up"></i>
-                                </div>
-                                <div class="col-md-8">
-                                    <h3 class="color-active">Safe Payments</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="payment-service">
-                            <a href="#"></a>
-                            <div class="row">
-                                <div class="col-md-4 text-center">
-                                    <i class="fa fa-truck"></i>
-                                </div>
-                                <div class="col-md-8">
-                                    <h3 class="color-active">Free shipping</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="payment-service">
-                            <a href="#"></a>
-                            <div class="row">
-                                <div class="col-md-4 text-center">
-                                    <i class="fa fa-fax"></i>
-                                </div>
-                                <div class="col-md-8">
-                                    <h3 class="color-active">24/7 Support</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-    </section>
 @stop
 

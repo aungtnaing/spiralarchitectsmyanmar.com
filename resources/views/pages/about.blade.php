@@ -37,5 +37,5 @@
 					</div>
 				</section>
 
-				 @include('includes.ourteam'); 
+			<!-- 	 @include('includes.ourteam');  -->
 @stop

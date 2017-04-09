@@ -163,7 +163,7 @@ public function store(Request $request)
 				// 'address' => 'required',
 				'email' => 'required|unique:users|max:255',
 				'ph1' => 'required',
-				'password' => 'required',
+			
 				]);
 		}
 		else
@@ -173,7 +173,7 @@ public function store(Request $request)
 				// 'address' => 'required',
 				// 'email' => 'required|unique:users|max:255',
 				'ph1' => 'required',
-				'password' => 'required',
+				
 				]);
 
 		}

@@ -9,7 +9,7 @@
 						<ul class="sub-menu">
 							@foreach($categorys as $category)
 										@if(count($category->projects)>0)
-											<li class="menu-item-has-children"><a href="#">{{ $category->mname }}<span class="caret"></span></a>
+											<li class="menu-item-has-children"><a href="#">{{ $category->mname }}</a>
 											@foreach($category->projects as $project)
 													<ul class="sub-menu">
 														<li><a href="{{ url('/projectdetailmyanmar', $project->id) }}">{{ $project->mname }}</a></li>
