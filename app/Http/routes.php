@@ -23,6 +23,8 @@
 		Route::get('mn', 'LanguageController@changemn');
 		Route::get('en', 'LanguageController@changeen');
 
+		Route::resource('contactus','ContactusController');
+
 		 // Route::get('mn/{projectid}', [
 			// 'uses' => 'LanguageController@changemn'
 			// ]);
@@ -31,6 +33,24 @@
 		 // Route::get('en/{projectid}', [
 			// 'uses' => 'LanguageController@changeen'
 			// ]);
+
+// 		Route::get('sendemail', function () {
+
+//   $data = array(
+//         'name' => "aung thein naing",
+//         'email' => "aungtnaing82@gmail.com",
+//     );
+
+//     Mail::send('emails.test', $data, function ($message) {
+
+//         $message->from('aungtnaing82@outlook.com', 'Learning Laravel');
+
+//         $message->to('aungtnaing82@outlook.com')->subject('Learning Laravel test email');
+
+//     });
+//     return "Your email has been sent successfully";
+
+// });
 
 		Route::get('homemyanmar', 'LanguageController@homemyanmar');
 

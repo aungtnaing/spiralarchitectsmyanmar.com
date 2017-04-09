@@ -20,7 +20,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<h1>Contact Us</h1>
+								<h1>Contact Us : Thanks you.!</h1>
 								<!-- <span>Here are some more info about our company</span> -->
 							</div>
 						</div>
@@ -29,38 +29,13 @@
 
 				<section class="contact-form">
 					<div class="container">
-						@if (count($errors) > 0)
-				<div class="alert alert-danger">
-					<ul>
-						@foreach ($errors->all() as $error)
-						<li>{{ $error }}</li>
-						@endforeach
-					</ul>
-				</div>
-				@endif	
+
 
 						<div class="row">
 							<div class="col-md-12">
 								<div class="row">
 
-									<form action="{{ route("contactus.store") }}" method="POST">
-										<input type="hidden" name="_token" value="{{ csrf_token() }}">
-
-										<div class="col-md-4 col-sm-12">
-											<input type="text" name="name" id="name-id" placeholder="Your Name" required>
-										</div>
-								
-										<div class="col-md-4 col-sm-12">
-											<input type="email" name="email" id="email-id" placeholder="Email Address" required>
-										</div>
-										<div class="col-md-12 col-sm-12">
-											<textarea name="messagecontent" id="message-id" placeholder="Message" required></textarea>
-											<!-- <button id="submit-contact" type="button" class="btn">Send Message</button> -->
-												
-											<button type="submit" class="btn btn-default">Send Message</button>
-										</div>
-
-									</form>
+									<p>Have a nice day.!</p>
 								</div>
 							</div>
 						</div>
