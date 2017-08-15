@@ -2,7 +2,7 @@
 @section('content')
 	@include('includes.mainslider') 
 
-	@include('includes.homecontent') 
+	@include('includes.homecontents') 
 
 
 	<!-- @include('includes.left')  -->

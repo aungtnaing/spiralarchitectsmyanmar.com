@@ -60,7 +60,7 @@
 
 				$categorys = Category::orderBy('id', 'desc')->get();
 				$ourteams = Ourteam::All();
-				return view('pages.about')
+				return view('pages.aboutus')
 					->with('categorys', $categorys)
 					->with('ourteams', $ourteams);
 				 	
