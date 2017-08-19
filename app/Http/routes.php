@@ -108,6 +108,14 @@
 				 	
 				});
 
+		   
+
+
+		     Route::get('projecttype/{projectid}', [
+			'uses' => 'ProjectsController@projecttype'
+			]);
+
+
 		    Route::get('contactusmyanmar', function() {
 
 				$categorys = Category::orderBy('id', 'desc')->get();

@@ -217,6 +217,7 @@
 								<option value="{{ $project->status }}">{{ $project->status }}</option>
 								<option value="developing">developing</option>
 								<option value="finished">finished</option>
+								<option value="none">none</option>
 							</select>
 
 						</div>

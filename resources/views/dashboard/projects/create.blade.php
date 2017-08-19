@@ -174,6 +174,7 @@
 							<select name="status">
 								<option value="developing">developing</option>
 								<option value="finished">finished</option>
+								<option value="none">none</option>
 							</select>
 
 						</div>

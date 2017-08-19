@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 
   <title>spiral   |   architects</title>
-  <meta name="description" content="Effect, premium HTML5&amp;CSS3 template">
+  <meta name="description" content="spiral architects myanmar">
   <meta name="author" content="Aung Thein Naing">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />

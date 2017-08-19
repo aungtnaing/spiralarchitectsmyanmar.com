@@ -58,6 +58,15 @@ class ProjectsController extends Controller {
 
 	}
 
+	public function projecttype($projectid)
+	{
+		
+		$project = Projects::find($projectid);
+		$categorys = Category::orderBy('id', 'desc')->get();
+		return view("pages.projecttype")->with('project',$project)->with('categorys',$categorys);
+
+	}
+
 	public function projectdetailmyanmar($projectid)
 	{
 		
