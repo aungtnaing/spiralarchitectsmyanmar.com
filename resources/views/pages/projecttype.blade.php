@@ -12,8 +12,11 @@ img {
 			   <div class="col-sm-8" style="background-color:lightcyan;">
 			   	<img height="2000" width="1500" src="<?php echo url(); ?>{{ $project->photourl1 }}" alt="" />
 			   </div>
+
+			   @if($project->photourl2!="")
         		<div class="col-sm-8" style="background-color:lightgray;">
         		<img height="2000" width="1500" src="<?php echo url(); ?>{{ $project->photourl2 }}" alt="" /></div>
+        		@endif
 		</div>
 	
 
