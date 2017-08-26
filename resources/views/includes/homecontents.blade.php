@@ -5,7 +5,7 @@
 			<div class="col-md-8 col-md-offset-2">
 			
 				<p style="text-align:left">Spiral Architects is a full serviced architectural, urban planning, structural engineering, and interior design firm based in Myanmar.</p>
-				<p style="text-align:left">It is fully registered in Myanmar and has its own copyrights. Spiral Architects team has earned a distinguished reputation for innovative designs on numerous noteworthy projects years in Myanmar.
+				<p style="text-align:left">It is fully registered in Myanmar and has its own copyrights. Spiral Architects and Planners team with its key partners, has earned a distinguished reputation for innovative designs on numerous noteworthy projects done troughout the last 20 years in Myanmar.
 				
 			</div>
 		</div>
