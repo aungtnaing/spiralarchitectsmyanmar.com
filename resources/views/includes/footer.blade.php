@@ -35,9 +35,14 @@
 						<h6>Contact Info</h6>
 						<p>spiral architects</p>
 						<ul class="contact-list">
-							<li><span>Phone:</span> +95.950.12.477</li>
+							<li><span>Phone:</span> +95 (1) 661556</li>
+							<li> +95 (1) 660809</li>
+							<li> +95 (9) 50.12.477</li>
+
 							<li><span>Address:</span> 43, Corner of Parami Road & Mya Sabi Street 8 Ward, Yankin Township, Yangon, Myanmar</li>
-							<li><span>Email:</span> <a href="#">spiral.rb@gmail.com</a></li>
+							<li><span>Email:</span> <a href="#">info@spiralarchitectsmyanmar.com</a></li>
+							<li><span>Website:</span> <a href="#">www.spiralarchitectsmyanmar.com</a></li>
+							
 
 						</ul>
 					</div>
