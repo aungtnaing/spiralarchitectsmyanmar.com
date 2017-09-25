@@ -9,11 +9,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+  <meta name="google-site-verification" content="dlZMugLcU4b9X5nEsPtBtnnvTdXHnM6rRyH7V4IOT88" />
 
 
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-  
 
   <link rel="stylesheet" href="<?php echo url(); ?>/css/bootstrap.css">
   <link rel="stylesheet" href="<?php echo url(); ?>/css/animate.css">
