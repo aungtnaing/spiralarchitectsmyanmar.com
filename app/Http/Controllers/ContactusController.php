@@ -70,6 +70,18 @@ public function store(ContactFormRequest $request)
 
     });
 
+
+    Mail::send('emails.layoutmail', $data, function ($message) use ($data){
+
+
+
+        $message->from('spiral.architects.info@gmail.com', $data['email']);
+
+        $message->to('info@spiralarchitectsmyanmar.com')->subject('New Client Enquiry')
+        										->replyTo($data['email']);
+
+    });
+
 		$categorys = Category::orderBy('id', 'desc')->get();
 
     return view('pages.acknoledgeform')->with('categorys', $categorys);
