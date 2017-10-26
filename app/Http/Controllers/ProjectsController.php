@@ -209,9 +209,7 @@ class ProjectsController extends Controller {
 			'photourlsmall1' => 'required',
 			'name' => 'required|max:255',
 			'mname' => 'required|max:255',
-			'location' => 'required|max:255',
-			'mlocation' => 'required|max:255',
-			'sdate' => 'required',
+			
 			]);
 
 
@@ -346,6 +344,7 @@ class ProjectsController extends Controller {
 
 		}
 
+				
 
 		$project->name = $request->input("name");
 		$project->mname = $request->input("mname");
@@ -355,7 +354,8 @@ class ProjectsController extends Controller {
 		$project->location = $request->input("location");
 		$project->mlocation = $request->input("mlocation");
 		$project->projectgoals = $request->input("projectgoals");
-		$project->mprojectgoals = $request->input("mprojectgoals");
+						$project->mprojectgoals = "null";
+
 		$project->categoryid = $request->input("category");
 		$project->status = $request->input("status");
 		$project->photourl1 = $photourl1;
@@ -410,15 +410,13 @@ class ProjectsController extends Controller {
 	public function update($id,Request $request)
 	{
 		//
-		
 		$this->validate($request,[
+			
 			'name' => 'required|max:255',
 			'mname' => 'required|max:255',
-			'location' => 'required|max:255',
-			'mlocation' => 'required|max:255',
-			'sdate' => 'required',
+			
 			]);
-
+		
 
 		$project = Projects::find($id);
 
@@ -590,6 +588,7 @@ class ProjectsController extends Controller {
 					}
 				}
 
+								// $project->prjtype = $request->input("prjtype");
 
 				$project->name = $request->input("name");
 				$project->mname = $request->input("mname");
@@ -599,7 +598,7 @@ class ProjectsController extends Controller {
 				$project->location = $request->input("location");
 				$project->mlocation = $request->input("mlocation");
 				$project->projectgoals = $request->input("projectgoals");
-				$project->mprojectgoals = $request->input("mprojectgoals");
+				$project->mprojectgoals = "null";
 				$project->categoryid = $request->input("category");
 				$project->status = $request->input("status");
 				$project->photourl1 = $photourl1;

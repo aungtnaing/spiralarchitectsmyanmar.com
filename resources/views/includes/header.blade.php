@@ -25,7 +25,7 @@
 											<li><a href="#">{{ $category->name }}<span class="caret"></span></a>
 											<ul class="dropdown-menu">
 											@foreach($category->projects as $project)
-													@if($project->status === "developing")
+													@if($project->projectgoals === "old")
 														<li><a href="{{ url('/projectdetail', $project->id) }}">{{ $project->name }}</a></li>
 													@else
 														<li><a href="{{ url('/projecttype', $project->id) }}">{{ $project->name }}</a></li>

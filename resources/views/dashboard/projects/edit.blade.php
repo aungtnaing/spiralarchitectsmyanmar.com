@@ -127,18 +127,36 @@
 					</div></div>
 				</div>
 
+					<div class="row">
+					
+
+					<div class="col-sm-4">
+						<div class="form-group">
+							<label for="name">Project Type</label>
+							<br>
+							<select name="projectgoals">
+								<option value="{{ $project->projectgoals }}">{{ $project->projectgoals }}</option>
+								<option value="old">old design</option>
+								<option value="new">new design</option>
+								
+							</select>
+
+						</div>
+					</div>
+				</div>
+
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="form-group">
 
 							<label for="name">Name<span class="text-error">*</span></label>
-							<input type="text" width: 200px; class="form-control" id="" name="name" placeholder="Enter Name" value="{{ $project->name }}" required>
+							<input type="text" width: 200px; class="form-control" id="" name="name" placeholder="Enter Name" value="{{ $project->name }}">
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="form-group">
 							<label for="name">mName<span class="text-error">*</span></label>
-							<input type="text" class="form-control" id="" name="mname" placeholder="Enter mName" value="{{ $project->mname }}" required>
+							<input type="text" class="form-control" id="" name="mname" placeholder="Enter mName" value="{{ $project->mname }}">
 						</div>
 					</div>
 					
@@ -166,7 +184,7 @@
 			            <div class="form-group">
 			                
 			                	<label for="name"><i class="fa fa-calendar"></i>..Year:</label>
-			                    <input type="date" placeholder="yyyy" name="sdate" class="form-control" value="{{ $project->sdate }}"/>
+			                    <input type="text" placeholder="yyyy" name="sdate" class="form-control" value="{{ $project->sdate }}"/>
 			                    
 			                    </span>
 			                
@@ -179,13 +197,13 @@
 					<div class="col-sm-4">
 						<div class="form-group">
 							<label for="name">Location<span class="text-error">*</span></label>
-							<input type="text" width: 200px; class="form-control" id="" name="location" placeholder="Enter location" value="{{ $project->location }}" required>
+							<input type="text" width: 200px; class="form-control" id="" name="location" placeholder="Enter location" value="{{ $project->location }}">
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="form-group">
 							<label for="name">mLocation<span class="text-error">*</span></label>
-							<input type="text" class="form-control" id="" name="mlocation" placeholder="Enter mlocation" value="{{ $project->mlocation }}" required>
+							<input type="text" class="form-control" id="" name="mlocation" placeholder="Enter mlocation" value="{{ $project->mlocation }}">
 						</div>
 					</div>
 					
@@ -224,7 +242,7 @@
 					</div>
 				</div>
 
-				<div class="row">
+				<!-- <div class="row">
 					
 					<div class="col-sm-6">
 							<div class="form-group">
@@ -240,7 +258,7 @@
 							</div>
 					</div>
 
-				</div>
+				</div> -->
 
 				<button type="submit" class="btn btn-default">Submit</button>
 

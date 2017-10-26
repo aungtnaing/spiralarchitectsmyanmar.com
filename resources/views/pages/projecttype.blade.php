@@ -17,6 +17,16 @@ img {
         		<div class="col-sm-8" style="background-color:lightgray;">
         		<img height="2000" width="1500" src="<?php echo url(); ?>{{ $project->photourl2 }}" alt="" /></div>
         		@endif
+
+        		 @if($project->photourl3!="")
+        		<div class="col-sm-8" style="background-color:lightgray;">
+        		<img height="2000" width="1500" src="<?php echo url(); ?>{{ $project->photourl3 }}" alt="" /></div>
+        		@endif
+
+        		 @if($project->photourl4!="")
+        		<div class="col-sm-8" style="background-color:lightgray;">
+        		<img height="2000" width="1500" src="<?php echo url(); ?>{{ $project->photourl4 }}" alt="" /></div>
+        		@endif
 		</div>
 	
 

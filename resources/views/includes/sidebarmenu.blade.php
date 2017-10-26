@@ -13,6 +13,8 @@
 											@foreach($category->projects as $project)
 													<ul class="sub-menu">
 														<li><a href="{{ url('/projectdetail', $project->id) }}">{{ $project->name }}</a></li>
+
+														
 													</ul>
 											@endforeach
 											</li>
