@@ -175,6 +175,9 @@
 		Route::group(['middleware' => 'auth'],function()
 		{
 			
+				Route::get('dashboarduserprofile', [
+					'uses' => 'ProfilesController@dashboarduserindex'
+					]);
 			
 
 			Route::group(['middleware' => 'roleware'],function()
