@@ -114,7 +114,27 @@ font-family: "Masterpiece Uni Sans", Myanmar3, serif;
     <script src="<?php echo url(); ?>/js/jquery.gmap3.min.js"></script>
 
     <!-- Google Map Init-->
-    <script type="text/javascript">
+
+		<script type="text/javascript">
+		jQuery(function($){
+			$('.contact-map').gmap3({
+				marker:{
+					address: '16.9143488,96.1526985'
+
+				},
+				map:{
+					options:{
+						zoom: 15,
+						scrollwheel: true,
+						streetViewControl : true
+					}
+				}
+			});
+		});
+
+		</script>
+
+    <!-- <script type="text/javascript">
         jQuery(function($){
             $('.contact-map').gmap3({
                 marker:{
@@ -130,7 +150,7 @@ font-family: "Masterpiece Uni Sans", Myanmar3, serif;
                 }
             });
         });
-    </script>
+    </script> -->
 
 </body>
 </html>

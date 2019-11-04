@@ -34,7 +34,7 @@
 						<li class="zawgyi"><span class="zawgyi">ဖုန္​း:</span> +95 (9) 50.12.477</li>
 						<!-- <li> + ၉၅ ( ၁ ) ၆၆၁၅၅၆</li> -->
 						<!-- <li><span>လိပ္​စာ:</span> ၄၃, ပါရမီလမ္​း​ေထာင္​့ , ျမစပါယ္​လမ္​း , ၈ ရပ္​ကြက္​ , ရန္​ကင္​းၿမိဳ႕နယ္​ , ရန္​ကုန္​ , ျမန္​မာ</li> -->
-						<li class="zawgyi" style="font-family: Zawgyi-One, serif;"><span>လိပ္​စာ: </span>အမွတ္ ( ၂၅ / E ) သီရိမဂၤလာရိပ္သာလမ္းသြယ္ ကမၻာေအး ဘုရားလမ္း ရန္ကင္းၿမိဳ႕နယ္ ရန္ကုန္ၿမိဳ႕</li>
+						<li class="myanmar3" style="font-family: "Masterpiece Uni Sans", Myanmar3, serif;"><span>လိပ်​စာ: </span>အမှတ် ( ၂၅ / E ) သီရိမင်္ဂလာရိပ်သာလမ်းသွယ် ကမ္ဘာအေး ဘုရားလမ်း ရန်ကင်းမြို့နယ် ရန်ကုန်မြို့</li>
 						<li><span>Email:</span> <a href="#">spiral.rb@gmail.com</a></li>
 					</ul>
 

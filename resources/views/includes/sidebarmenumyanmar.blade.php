@@ -20,17 +20,17 @@
 											<li><a href="#">{{ $category->mname }}</a></li>
 										@endif
 									@endforeach
-							
+
 						</ul>
 					</li>
 					<li><a href="<?php echo url(); ?>/servicesmyanmar"> ဝန္​​ေဆာင္​မႈ​မ်ား</a></li>
-					
+
 					<li><a href="<?php echo url(); ?>/contactusmyanmar">ဆက္​သြယ္​ရန္</a></li>
 					<li class="menu-item-has-children navbutton-myanmar"><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ျမန္မာ</a>
 						<ul class="sub-menu">
 							<li class="navbutton-english"><a href="<?php echo url(); ?>/en">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English</a></li>
 							<li class="navbutton-myanmar"><a href="<?php echo url(); ?>/mn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ျမန္မာ</a></li>
-						</ul>		
+						</ul>
 					</li>
 				</ul>
 			</nav>
@@ -39,8 +39,8 @@
 				<div class="line-dec"></div>
 				<p>spiral architects</p>
 				<ul class="contact-list">
-					<li><span>ဖုန္​း:</span> + ၉၅ ( ၁ ) ၆၆၁၅၅၆</li>
-						<li><span>လိပ္​စာ:</span> ၄၃, ပါရမီလမ္​း​ေထာင္​့ , ျမစပါယ္​လမ္​း , ၈ ရပ္​ကြက္​ , ရန္​ကင္​းၿမိဳ႕နယ္​ , ရန္​ကုန္​ , ျမန္​မာ</li>
+					<li><span>ဖုန္​း:</span>  +95 (9) 50.12.477</li>
+						<li class="myanmar3" style="font-family: "Masterpiece Uni Sans", Myanmar3, serif;"><span>လိပ်​စာ: </span>အမှတ် ( ၂၅ / E ) သီရိမင်္ဂလာရိပ်သာလမ်းသွယ် ကမ္ဘာအေး ဘုရားလမ်း ရန်ကင်းမြို့နယ် ရန်ကုန်မြို့</li>
 						<li><span>Email:</span> <a href="#">spiral.rb@gmail.com</a></li>
 				</ul>
 				<!-- <ul class="social-icons">

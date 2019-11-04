@@ -117,6 +117,25 @@
 	jQuery(function($){
 		$('.contact-map').gmap3({
 			marker:{
+				address: '16.9143488,96.1526985'
+
+			},
+			map:{
+				options:{
+					zoom: 15,
+					scrollwheel: true,
+					streetViewControl : true
+				}
+			}
+		});
+	});
+
+	</script>
+
+	<!-- <script type="text/javascript">
+	jQuery(function($){
+		$('.contact-map').gmap3({
+			marker:{
 				address: '16.8506586,96.1603833'
 
 			},
@@ -130,10 +149,7 @@
 		});
 	});
 
-
-
-
-	</script>
+	</script> -->
 
 </body>
 </html>
