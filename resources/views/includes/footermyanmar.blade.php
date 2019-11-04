@@ -27,14 +27,14 @@
 
 
 			<div class="col-md-3">
-				<div class="contact-info">
+				<div class="contact-info zawgyi">
 					<h6>ဆက္သြယ္ရန္အခ်က္အလက္</h6>
 					<p>spiral architects</p>
 					<ul class="contact-list zawgyi">
 						<li class="zawgyi"><span class="zawgyi">ဖုန္​း:</span> +95 (9) 50.12.477</li>
 						<!-- <li> + ၉၅ ( ၁ ) ၆၆၁၅၅၆</li> -->
 						<!-- <li><span>လိပ္​စာ:</span> ၄၃, ပါရမီလမ္​း​ေထာင္​့ , ျမစပါယ္​လမ္​း , ၈ ရပ္​ကြက္​ , ရန္​ကင္​းၿမိဳ႕နယ္​ , ရန္​ကုန္​ , ျမန္​မာ</li> -->
-						<li class="zawgyi"><span>လိပ္​စာ: အမွတ္ ( ၂၅ / E ) သီရိမဂၤလာရိပ္သာလမ္းသြယ္ ကမၻာေအး ဘုရားလမ္း ရန္ကင္းၿမိဳ႕နယ္ ရန္ကုန္ၿမိဳ႕ </span></li>
+						<li class="zawgyi"><span>လိပ္​စာ: </span> <span>အမွတ္ ( ၂၅ / E ) သီရိမဂၤလာရိပ္သာလမ္းသြယ္ ကမၻာေအး ဘုရားလမ္း ရန္ကင္းၿမိဳ႕နယ္ ရန္ကုန္ၿမိဳ႕</span></li>
 						<li><span>Email:</span> <a href="#">spiral.rb@gmail.com</a></li>
 					</ul>
 
